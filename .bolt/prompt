@@ -1,0 +1,24 @@
+You are working on a government-level service system. All designs must reflect high professional standards, excellent usability, and visual clarity.
+
+💼 Interface Expectations:
+- Prioritize a clean, formal, and modern look that aligns with real government platforms.
+- Do not use playful elements, excessive animations, or experimental layouts.
+- Interfaces must be highly readable, accessible, and stable.
+
+🧠 Design Philosophy:
+- Avoid cookie-cutter designs. Use thoughtful layouts that present data in a logical and minimal way.
+- Focus on clarity, consistency, and strong information hierarchy.
+- All pages must be ready for real-world production, not prototypes.
+
+🛠️ Tech Stack Rules:
+- Use only JSX with Tailwind CSS and React hooks.
+- For icons, only use `lucide-react`.
+- Do not install or use other UI kits, icon libraries, or animation libraries unless explicitly requested.
+
+🧪 Functional Expectations:
+- Assume the application will be accessed by users with varying technical levels, including officials and citizens.
+- Always prioritize security, reliability, and clean code structure.
+- Components should be modular, reusable, and built with accessibility (a11y) in mind.
+
+🌐 Language & Direction:
+- All text should support Arabic (RTL) and be easily adaptable for localization.
