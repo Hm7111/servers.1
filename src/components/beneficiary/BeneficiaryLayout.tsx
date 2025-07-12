@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { 
   LogOut, Bell, Menu, X, 
-  User, Shield, FileText, Home, Calendar, Check, Phone, 
-  HelpCircle, MessageSquare, BookOpen, Clock, MapPin
+  User, Shield, Check, Phone, 
+  HelpCircle, BookOpen, Clock
 } from 'lucide-react';
 import { formatGregorianDate } from '../../utils/dateHelpers';
 import { motion } from 'framer-motion';
@@ -38,7 +38,6 @@ const BeneficiaryLayout: React.FC<BeneficiaryLayoutProps> = ({
 }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [lastLoginTime] = useState(() => {
-    // Use real last login time from user data if available
     return formatGregorianDate(new Date().toISOString(), true);
   });
   
@@ -100,7 +99,6 @@ const BeneficiaryLayout: React.FC<BeneficiaryLayoutProps> = ({
             <button
               key={item.id}
               onClick={() => {
-                // تغيير القيمة في العنوان لسهولة المشاركة
                 const newUrl = `${window.location.pathname}?tab=${item.id}`;
                 window.history.pushState({}, '', newUrl);
                 onTabChange(item.id);
