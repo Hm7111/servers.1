@@ -73,6 +73,9 @@ const App: React.FC = () => {
       </ThemeProvider>
     </ToastProvider>
   );
+console.log("Sourcery review test fired");
+
 };
 
 export default App;
+// Trigger full project review by Sourcery
