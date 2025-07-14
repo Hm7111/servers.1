@@ -73,6 +73,8 @@ const App: React.FC = () => {
       </ThemeProvider>
     </ToastProvider>
   );
+console.log("Sourcery review test fired");
+
 };
 
 export default App;
