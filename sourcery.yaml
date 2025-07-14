@@ -2,9 +2,10 @@
 review_instructions:
   - paths: ["src/**/*.{ts,tsx,js,jsx}"]
     instructions:
-      - Perform full refactoring across all modules in src
-      - Identify and eliminate duplicated code
-      - Suggest improvements for long or complex functions
-      - Recommend breaking down large components into smaller reusable parts
-      - Convert any legacy patterns to modern React/TypeScript best practices
-      - Flag any violations of DRY, KISS, or SOLID principles
+      - Split any file longer than 300 lines into logical modules or components
+      - Remove all duplicated code across the entire codebase (apply DRY principle)
+      - Organize theme configuration and enforce a unified color palette (Light + Dark Mode)
+      - Ensure all components follow the same design identity and naming convention
+      - Do not remove or break existing features or logic
+      - Improve performance by simplifying nested functions and reducing props drilling
+      - Ensure accessibility (a11y) standards are not broken
