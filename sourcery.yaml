@@ -1,0 +1,10 @@
+
+review_instructions:
+  - paths: ["src/**/*.{ts,tsx,js,jsx}"]
+    instructions:
+      - Perform full refactoring across all modules in src
+      - Identify and eliminate duplicated code
+      - Suggest improvements for long or complex functions
+      - Recommend breaking down large components into smaller reusable parts
+      - Convert any legacy patterns to modern React/TypeScript best practices
+      - Flag any violations of DRY, KISS, or SOLID principles
